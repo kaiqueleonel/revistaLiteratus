@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Inter&family=Poppins&display=swap');
 
 :root {
     --cor-fundo-cabecalho: #55A3E7;
     --fonte-cabecalho: 'Poppins', sans-serif;
     --branco-fonte: #ffffff;
+    --fonte-titulo-principal: 'Cormorant Garamond', serif;
+    --fonte-subtitulo-principal: 'Inter', sans-serif;
+    --preto-principal: #000000;
 }
 
 .cabecalho {
     display: flex;
     background-color: var(--cor-fundo-cabecalho);
     align-items: center;
+    text-align: center;
     padding: 5px 0;
     gap: 167px;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .cabecalho__imagem {
@@ -29,5 +34,62 @@
     font-size: 1rem;
     font-family: var(--fonte-cabecalho);
     font-weight: 400;
+    
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    gap: 110px;
+}
 
+.inicio__titulo{
+    font-size: 10rem;
+    font-family: var(--fonte-titulo-principal);
+    font-weight: 400;
+}
+
+.inicio__texto{
+    font-size: 1rem;
+    font-family: var(--fonte-subtitulo-principal);
+    font-weight: 400;
+}
+
+.quem__somos{
+    background-image: url(/img/backgroundEstanteDeLivros.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quem__somos__div{
+    background-color: #ffffff99;
+    width: 800px;
+    padding: 60px 50px;
+    border-radius: 5px;
+    box-shadow:  1px 3px 4px var(--preto-principal);
+    text-align: center;
+    
+    
+}
+.quem__somos__titulo{
+    font-family: var(--fonte-cabecalho);
+    font-weight: 400;
+    font-size: 2.43rem;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.quem__somos__texto{
+    color: var(--preto-principal);
+    font-size: 1rem;
+    font-family: var(--fonte-subtitulo-principal);
+    font-weight: 400;
+    text-align: justify;
+    text-indent: 2.18rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
