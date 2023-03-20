@@ -7,6 +7,8 @@
     --fonte-titulo-principal: 'Cormorant Garamond', serif;
     --fonte-subtitulo-principal: 'Inter', sans-serif;
     --preto-principal: #000000;
+    --cinzo--fundo: #27242C;
+    --cor-footer: #181719;
 }
 
 .cabecalho {
@@ -34,9 +36,10 @@
     font-size: 1rem;
     font-family: var(--fonte-cabecalho);
     font-weight: 400;
-    
+
 }
-.inicio{
+
+.inicio {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,19 +47,19 @@
     gap: 110px;
 }
 
-.inicio__titulo{
+.inicio__titulo {
     font-size: 10rem;
     font-family: var(--fonte-titulo-principal);
     font-weight: 400;
 }
 
-.inicio__texto{
+.inicio__texto {
     font-size: 1rem;
     font-family: var(--fonte-subtitulo-principal);
     font-weight: 400;
 }
 
-.quem__somos{
+.quem__somos {
     background-image: url(/img/backgroundEstanteDeLivros.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -67,24 +70,25 @@
     justify-content: center;
 }
 
-.quem__somos__div{
+.quem__somos__div {
     background-color: #ffffff99;
     width: 800px;
     padding: 60px 50px;
     border-radius: 5px;
-    box-shadow:  1px 3px 4px var(--preto-principal);
+    box-shadow: 1px 3px 4px var(--preto-principal);
     text-align: center;
-    
-    
+
+
 }
-.quem__somos__titulo{
+
+.quem__somos__titulo {
     font-family: var(--fonte-cabecalho);
     font-weight: 400;
     font-size: 2.43rem;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.quem__somos__texto{
+.quem__somos__texto {
     color: var(--preto-principal);
     font-size: 1rem;
     font-family: var(--fonte-subtitulo-principal);
@@ -92,4 +96,81 @@
     text-align: justify;
     text-indent: 2.18rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.informacoes {
+    background-color: var(--cinzo--fundo);
+    color: var(--branco-fonte);
+    display: flex;
+    height: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.informacoes__div {
+    display: flex;
+    align-items: baseline;
+    gap: 50px;
+}
+
+.informacoes__revista {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informacoes__titulo__revista,
+.informacoes__texto,
+.informacoes__titulo__informacao,
+.informacoes__email,
+.informacoes__local,
+.footer__dedicatoria__copyright,
+.footer__dedicatoria__desenvolvedores {
+    font-family: var(--fonte-cabecalho);
+    font-weight: 400;
+}
+
+.informacoes__titulo__revista {
+    font-size: 2.5rem;
+}
+
+.informacoes__texto,
+.informacoes__email,
+.informacoes__local,
+.footer__dedicatoria__desenvolvedores {
+    font-size: 0.93rem;
+}
+
+.informacoes__informacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informacoes__titulo__informacao {
+    font-size: 2rem;
+}
+
+.footer__dedicatoria{
+    background-color: var(--cor-footer);
+    height: 50px;
+    color: var(--branco-fonte);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__dedicatoria__div{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.footer__dedicatoria__copyright {
+    font-size: 1rem;
+}
+
+.footer__dedicatoria__desenvolvedores{
+    text-decoration: none;
 }
