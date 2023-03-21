@@ -1,18 +1,8 @@
 @import url(/styles/header.css);
 @import url(/styles/footer.css);
+@import url(/styles/variaveis.css);
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Inter&family=Poppins&display=swap');
 
-
-:root {
-    --cor-fundo-cabecalho: #55A3E7;
-    --fonte-cabecalho: 'Poppins', sans-serif;
-    --branco-fonte: #ffffff;
-    --fonte-titulo-principal: 'Cormorant Garamond', serif;
-    --fonte-subtitulo-principal: 'Inter', sans-serif;
-    --preto-principal: #000000;
-    --cinzo--fundo: #27242C;
-    --cor-footer: #181719;
-}
 
 .inicio {
     display: flex;
@@ -24,7 +14,7 @@
 
 .inicio__titulo {
     font-size: 10rem;
-    font-family: var(--fonte-titulo-principal);
+    font-family: var(--fonte-cormorant-garamond);
     font-weight: 400;
 }
 
@@ -57,7 +47,7 @@
 }
 
 .quem__somos__titulo {
-    font-family: var(--fonte-cabecalho);
+    font-family: var(--fonte-poppins);
     font-weight: 400;
     font-size: 2.43rem;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
@@ -66,7 +56,7 @@
 .quem__somos__texto {
     color: var(--preto-principal);
     font-size: 1rem;
-    font-family: var(--fonte-subtitulo-principal);
+    font-family: var( --fonte-inter);
     font-weight: 400;
     text-align: justify;
     text-indent: 2.18rem;

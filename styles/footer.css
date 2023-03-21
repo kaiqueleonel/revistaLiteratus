@@ -27,7 +27,7 @@
 .informacoes__local,
 .footer__dedicatoria__copyright,
 .footer__dedicatoria__desenvolvedores {
-    font-family: var(--fonte-cabecalho);
+    font-family: var(--fonte-poppins);
     font-weight: 400;
 }
 
@@ -54,7 +54,7 @@
 
 .footer__dedicatoria{
     background-color: var(--cor-footer);
-    height: 50px;
+    height: 100px;
     color: var(--branco-fonte);
     display: flex;
     align-items: center;
@@ -64,10 +64,11 @@
 .footer__dedicatoria__div{
     display: flex;
     align-items: baseline;
-    gap: 5px;
+    gap: 50px;
 }
 
-.footer__dedicatoria__copyright {
+.footer__dedicatoria__copyright, 
+.footer__dedicatoria__desenvolvedores{
     font-size: 1rem;
 }
 

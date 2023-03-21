@@ -1,0 +1,67 @@
+@import url(/styles/header.css);
+@import url(/styles/footer.css);
+@import url(/styles/variaveis.css);
+
+
+
+.integrantes{
+    margin: 100px 5% 0 5%;
+    text-align: center;
+    
+}
+
+.integrantes__div{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+    ;
+
+}
+
+.integrantes__titulo,
+.integrantes__nome,
+.integrantes__descricao,
+.integrantes__email{
+    font-family: var(--fonte-inter);
+    font-weight: 400;
+}
+
+
+
+.integrantes__titulo{
+    font-size: 3.43rem;
+    margin-bottom: 60px;
+}
+
+.integrantes__card{
+    height: 400px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.integrantes__imagem{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 53px 0 10px 0    ;
+}
+
+.integrantes__nome{
+    font-size: 1.12rem;
+    margin-bottom: 9px;
+}
+
+.integrantes__descricao{
+    font-size: 0.81;
+    margin-bottom: 63px;
+}
+
+.integrantes__email{
+    margin-bottom: 27px;
+}
